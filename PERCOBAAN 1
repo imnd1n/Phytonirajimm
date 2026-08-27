@@ -1,0 +1,46 @@
+#medium level
+#program keempat
+
+total = 0
+d = 3
+while d <= 30:
+    print("kelipatan :", d)
+    total = total + d
+    d += 3  #udah dapet while loopnya
+print("_____________+")
+print(total)
+print()
+print("◇♡" * 10)
+print()
+
+
+#program kelima ganjil genap
+
+angka = 1
+while angka <= 10:
+    if angka % 2 == 0:
+        print(angka, "genap")
+    else:
+        print(angka, "ganjil")
+    angka += 1
+print()
+print("btw ini ga nyontek:)")
+print("~" * 15)
+print()
+print()
+
+
+#program keenam perkalian custom
+
+angka = 1
+isi = int(input("Isi Angka Bebazzz:  "))
+print(isi)
+print()
+print()
+while angka <= 10:
+    print(f"{isi} * {angka} = {isi * angka}")
+    angka += 1
+print()
+print("ih beneran bisa... ternyata lupa masukin int")
+print()
+print("□" * 15)
